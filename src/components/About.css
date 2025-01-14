@@ -1,0 +1,54 @@
+.image-container {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.team-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  filter: grayscale(30%);
+}
+
+.overlay-text {
+  position: absolute;
+  top: 200px;
+  left: -10px;
+  color: #e0ded8;
+  text-align: center;
+  padding: 20px;
+  border-radius: 8px;
+  background: #c3b5a3;
+}
+
+.aboutus {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #c3b5a3;
+  min-height: 50vh;
+}
+
+.text-content {
+  width: 20%;
+  color: #4a5a64;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.image-content img {
+  width: 300px;
+  height: auto;
+  border-radius: 20px;
+  margin: 50px;
+}
+
+.about-div {
+  background: #c3b5a3;
+  font-size: 3rem;
+  display: flex;
+  padding: 100px 0px 0px 50px;
+  color: #4a5a64;
+}

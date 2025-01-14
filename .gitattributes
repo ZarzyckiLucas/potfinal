@@ -1,0 +1,2 @@
+src/assets/OpenShot-v3.2.1-x86_64.exe filter=lfs diff=lfs merge=lfs -text
+*.exe filter=lfs diff=lfs merge=lfs -text
